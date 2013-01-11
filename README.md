@@ -54,7 +54,7 @@ To Generate QRcode to be scanned with Google's Authenticator app. To  setup the 
 @param String $secret is the secret that was genereted for the user
 
 ```php
-HOTPass::getQRBarcodeURL("zeroows", "localhost", $secret);
+HOTPass::getQRcodeURL("zeroows", "localhost", $secret);
 // it will return link like http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=otpauth://totp/localhost:zeroows?secret=35ZCFIQ4SXTO6EYL&chld=H|0
 
 ```
