@@ -31,7 +31,7 @@ Bundle::start('otpass');
 
 HOTPass::userRandomKey();
 
-// will gererate a random key like 35ZCFIQ4SXTO6EYL
+// will generate a random key like 35ZCFIQ4SXTO6EYL
 ```
 
 #### Getting the HOTP number 
