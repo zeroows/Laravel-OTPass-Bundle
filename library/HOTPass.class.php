@@ -121,7 +121,7 @@ class HOTPass {
     public static function getQRcodeURL($user, $host, $secret) {
         $format = "otpauth://totp/%s:%s?secret=%s";
         $chl = sprintf($format, $host, $user, preg_replace('/\s+/', '', strtoupper($secret)));
-        $url = "http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=%s&chld=H|0";
+        $url = "http://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=%s&choe=UTF-8&chld=H|0";
         return sprintf($url, $chl);
     }
 
